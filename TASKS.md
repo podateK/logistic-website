@@ -17,7 +17,7 @@ This plan translates `Logistics_Website_Requirements.pdf` into independently tes
   - Add automatic distance/weight/zone price calculation, payment choices, order confirmation, invoices, CSV bulk upload, and business accounts.
 - [x] Task 5 - Shipment tracking and proof of delivery
   - Add unique tracking IDs, live route visualization, lifecycle history, notification preferences, receiver name, signature, and photo proof states.
-- [ ] Task 6 - Dispatch, fleet, warehouse, and inventory operations
+- [x] Task 6 - Dispatch, fleet, warehouse, and inventory operations
   - Add automated/manual dispatch, delivery scheduling, driver performance/status, vehicle capacity/maintenance, route planning, multi-city operations, warehouse stock, and inventory alerts.
 - [ ] Task 7 - Admin analytics, reports, and enterprise controls
   - Add revenue/order/delivery/driver analytics, reporting views, user/role management, currencies, languages, and integration settings.

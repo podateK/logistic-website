@@ -1,0 +1,10 @@
+"use client";
+
+import { Camera, Check, MapPin, Navigation, PackageCheck, Phone, Route } from "lucide-react";
+import Link from "next/link";
+import { useState } from "react";
+
+export function DriverRoute() {
+  const [started, setStarted] = useState(false);
+  return <><div className="dashboard-title driver-title"><div><span>Friday route · Van 18</span><h1>Good morning, Alex.</h1><p>6 stops · 42.8 km · estimated finish 15:40</p></div><button className="button" type="button" onClick={() => setStarted(true)}><Navigation size={17}/>{started ? "Route started" : "Start route"}</button></div><section className="driver-route-map panel"><div className="driver-map-visual"><svg viewBox="0 0 800 250" preserveAspectRatio="none"><path d="M65 186 C150 45 286 220 400 104 S640 62 735 184"/></svg>{["1","2","3","4","5","6"].map((number,index)=><i key={number} style={{left:`${8+index*17}%`,top:`${index%2 ? 30:65}%`}}>{number}</i>)}</div><div className="driver-route-summary"><span><Route size={17}/><strong>Optimized order</strong> saves 18 minutes</span><span>Next stop in <strong>2.8 km</strong></span></div></section><section className="driver-stops"><article className="driver-stop active"><span className="stop-number">1</span><div><small>Next · 10:26–10:40</small><h2>31-00 47th Avenue</h2><p><MapPin size={14}/>Queens, NY 11101</p><strong>VQ-2847-1903 · 1 package · 4 kg</strong><div className="stop-actions"><button type="button"><Navigation size={16}/> Navigate</button><a href="tel:+15550149218"><Phone size={16}/> Call</a><Link href="/dashboard/shipments/VQ-2847-1903/proof"><Camera size={16}/> Add proof</Link></div></div></article>{[["2","11:05–11:20","27-10 Queens Plaza","VQ-2847-2014"],["3","11:50–12:10","88 Madison Avenue","VQ-2847-2031"],["4","13:00–13:20","425 Lexington Avenue","VQ-2847-2047"]].map(([number,time,address,id])=><article className="driver-stop" key={number}><span className="stop-number">{number}</span><div><small>{time}</small><h2>{address}</h2><strong>{id}</strong></div><PackageCheck size={19}/></article>)}</section><div className="driver-completed"><Check size={16}/> 2 stops completed · 4 remaining</div></>;
+}
