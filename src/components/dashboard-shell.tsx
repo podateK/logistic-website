@@ -13,6 +13,7 @@ import {
   Navigation,
   PackagePlus,
   Settings,
+  SlidersHorizontal,
   ShieldCheck,
   Truck,
   Warehouse,
@@ -44,6 +45,7 @@ const nav = [
   ["Warehouses", "/dashboard/warehouses", Warehouse, ["Admin", "Super Admin"]],
   ["Reports", "/dashboard/reports", BarChart3, ["Admin", "Super Admin"]],
   ["Access control", "/dashboard/access", ShieldCheck, ["Super Admin"]],
+  ["Platform settings", "/dashboard/admin", SlidersHorizontal, ["Admin", "Super Admin"]],
   ["Settings", "/dashboard/profile", Settings, ["Customer", "Dispatcher", "Driver", "Admin", "Super Admin"]],
 ] as const;
 
