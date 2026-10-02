@@ -15,7 +15,7 @@ This plan translates `Logistics_Website_Requirements.pdf` into independently tes
 - [x] Task 4 - Customer shipping workspace
   - Build shipment creation for pickup/delivery addresses, package weight/dimensions, and same-day/express/standard/scheduled services.
   - Add automatic distance/weight/zone price calculation, payment choices, order confirmation, invoices, CSV bulk upload, and business accounts.
-- [ ] Task 5 - Shipment tracking and proof of delivery
+- [x] Task 5 - Shipment tracking and proof of delivery
   - Add unique tracking IDs, live route visualization, lifecycle history, notification preferences, receiver name, signature, and photo proof states.
 - [ ] Task 6 - Dispatch, fleet, warehouse, and inventory operations
   - Add automated/manual dispatch, delivery scheduling, driver performance/status, vehicle capacity/maintenance, route planning, multi-city operations, warehouse stock, and inventory alerts.
