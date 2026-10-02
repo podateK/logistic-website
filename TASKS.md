@@ -12,7 +12,7 @@ This plan translates `Logistics_Website_Requirements.pdf` into independently tes
 - [x] Task 3 - Authentication and account flows
   - Add registration/login, email and phone inputs, OTP verification, password reset, profile, saved addresses, and role selection.
   - Demonstrate role-based access for Customer, Dispatcher, Driver, Admin, and Super Admin.
-- [ ] Task 4 - Customer shipping workspace
+- [x] Task 4 - Customer shipping workspace
   - Build shipment creation for pickup/delivery addresses, package weight/dimensions, and same-day/express/standard/scheduled services.
   - Add automatic distance/weight/zone price calculation, payment choices, order confirmation, invoices, CSV bulk upload, and business accounts.
 - [ ] Task 5 - Shipment tracking and proof of delivery
