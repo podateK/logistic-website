@@ -2,11 +2,14 @@
   "name": "logistic-website",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "check": "npm run lint && npm run test && npm run build"
   },
   "dependencies": {
     "lucide-react": "^1.50.0",

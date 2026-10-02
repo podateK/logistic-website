@@ -21,7 +21,7 @@ This plan translates `Logistics_Website_Requirements.pdf` into independently tes
   - Add automated/manual dispatch, delivery scheduling, driver performance/status, vehicle capacity/maintenance, route planning, multi-city operations, warehouse stock, and inventory alerts.
 - [x] Task 7 - Admin analytics, reports, and enterprise controls
   - Add revenue/order/delivery/driver analytics, reporting views, user/role management, currencies, languages, and integration settings.
-- [ ] Task 8 - API contract, quality assurance, and handoff
+- [x] Task 8 - API contract, quality assurance, and handoff
   - Add representative REST route handlers for tracking, quote calculation, and orders with validation/error responses.
   - Run lint, type/build checks, functional smoke tests, responsive browser review, and update setup/deployment documentation.
 

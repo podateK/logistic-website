@@ -65,7 +65,11 @@ export function DashboardShell({ children }: { children: ReactNode }) {
           <div className="workspace-name"><span>Workspace</span><strong>Northstar Commerce</strong></div>
           <nav aria-label="Workspace navigation">
             {available.map(([label, href, Icon]) => {
-              const active = pathname === href || (href !== "/dashboard" && pathname.startsWith(href));
+              const active = href === "/dashboard"
+                ? pathname === href
+                : href === "/dashboard/shipments"
+                  ? pathname === href || (pathname.startsWith(`${href}/`) && !pathname.startsWith(`${href}/new`))
+                  : pathname === href || pathname.startsWith(`${href}/`);
               return <Link key={href} href={href} data-active={active || undefined} onClick={() => setMobileOpen(false)}><Icon size={18} /><span>{label}</span></Link>;
             })}
           </nav>
