@@ -9,7 +9,7 @@ This plan translates `Logistics_Website_Requirements.pdf` into independently tes
 - [x] Task 2 - Public website and responsive design system
   - Build the Home, Services, Pricing, About, Contact, and FAQ routes.
   - Add shared navigation, footer, mobile navigation, accessibility states, and responsive layouts.
-- [ ] Task 3 - Authentication and account flows
+- [x] Task 3 - Authentication and account flows
   - Add registration/login, email and phone inputs, OTP verification, password reset, profile, saved addresses, and role selection.
   - Demonstrate role-based access for Customer, Dispatcher, Driver, Admin, and Super Admin.
 - [ ] Task 4 - Customer shipping workspace
