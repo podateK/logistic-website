@@ -6,7 +6,7 @@ This plan translates `Logistics_Website_Requirements.pdf` into independently tes
   - Scaffold a strict TypeScript Next.js/React application.
   - Record product, architecture, design-system, and integration decisions.
   - Create a private GitHub repository and establish the push-per-task workflow.
-- [ ] Task 2 - Public website and responsive design system
+- [x] Task 2 - Public website and responsive design system
   - Build the Home, Services, Pricing, About, Contact, and FAQ routes.
   - Add shared navigation, footer, mobile navigation, accessibility states, and responsive layouts.
 - [ ] Task 3 - Authentication and account flows
